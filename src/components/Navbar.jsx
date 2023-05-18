@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo1.png'
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
 
@@ -17,12 +18,38 @@ const Navbar = () => {
 
         {/* Navbar */}
         <ul className='hidden md:flex'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Experience</li>
-            <li>Projects</li>
-            <li>Contact</li>
+
+            <li>
+                <Link to="home" smooth={true} duration={500}>
+                Home
+                </Link>
+            </li>
+            <li>
+                <Link to="about" smooth={true} duration={500}>
+                About
+                </Link>
+            </li>
+            <li>
+                <Link to="skills" smooth={true} duration={500}>
+                Skills
+                </Link>
+            </li>
+            <li>
+                <Link to="experience" smooth={true} duration={500}>
+                Experience
+                </Link>
+            </li>
+            <li>
+                <Link to="projects" smooth={true} duration={500}>
+                Projects
+                </Link>
+            </li>
+            <li>
+                <Link to="contact" smooth={true} duration={500}>
+                Contact
+                </Link>
+            </li>
+
         </ul>
 
         {/* Hamburger */}
@@ -32,34 +59,58 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0A192F] flex flex-col justify-center items-center'}>
-            <li className='py-6 text-4xl'>Home</li>
-            <li className='py-6 text-4xl'>About</li>
-            <li className='py-6 text-4xl'>Skills</li>
-            <li className='py-6 text-4xl'>Experience</li>
-            <li className='py-6 text-4xl'>Projects</li>
-            <li className='py-6 text-4xl'>Contact</li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+                Home
+                </Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+                About
+                </Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+                Skills
+                </Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="experience" smooth={true} duration={500}>
+                Experience
+                </Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="projects" smooth={true} duration={500}>
+                Projects
+                </Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+                Contact
+                </Link>
+            </li>
         </ul>
 
         {/* Social Icons */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/darrellejmartin/">
                         LinkedIn <FaLinkedin size={30} />
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6e5494]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/DarrellM29">
                         Github <FaGithub size={30} />
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="mailto:darrellmartin29@gmail.com">
                         Email <HiOutlineMail size={30} />
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565F69]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href='https://liveindianatech-my.sharepoint.com/:b:/g/personal/demartin01_indianatech_net/EUDkX3ulAelKnopuZxrBXWkBABDcqzAvSDuZI7J0Es9VWQ?e=lPo6ZC'>
                         Resume <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>

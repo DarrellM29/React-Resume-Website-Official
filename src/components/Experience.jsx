@@ -6,100 +6,82 @@ import IndianaTech from '../assets/Internships/IndianaTech.png'
 
 const Experience = () => {
   return (
-    <div name='projects' className='w-full md:h-screen text-gray-300 bg-[#0A192F]'>
+    <div name='experience' className='w-full md:h-screen text-gray-300 bg-[#0A192F] pt-10'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-            <div className='pb-8'>
+            <div className='pb-4'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#F9D342]'>Experience</p>
                 <p className='py-6'>// This is some of my past experience</p>
             </div>
 
             {/* Container */}
-            <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-4'>
 
                 {/* Grid Item */}
-                <div 
-                style={{backgroundImage: `url(${Kohls})`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                >
+                <div className='shadow-xl shadow-[#040c16] group container rounded-md'>
                     
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            Bill Splitter
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
+                    <div 
+                    className='flex justify-center items-center mx-auto image-div'
+                    style={{backgroundImage: `url(${Kohls})`}}
+                    alt="Kohls"
+                    >  
+                    </div>
+                    <div className='text-center py-8'>
+                        <h1 className='text-3xl sm:text-4xl font-bold text-[#F9D342]'>Kohl's</h1>
+                        <h2 className='text-md sm:text-lg font-bold'>(Menomonee Falls, WI)</h2>
+                        <h1 className='text-xl sm:text-2xl text-[#F9D342]'>Software Engineering Intern</h1>
+                        <h2 className='text-md sm:text-lg'>June 2023 - Present</h2>
                     </div>
                 </div>
 
-                <div 
-                style={{backgroundImage: `url(${BNSF})`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                >
+                <div className='shadow-xl shadow-[#040c16] group container rounded-md'>
                     
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            Global Guide
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
+                    <div 
+                    className='flex justify-center items-center mx-auto image-div'
+                    style={{backgroundImage: `url(${IndianaTech})`}}
+                    alt="Indiana Tech"
+                    >  
+                    </div>
+                    <div className='text-center py-8'>
+                        <h1 className='text-3xl sm:text-4xl font-bold text-[#F9D342]'>Indiana Tech</h1>
+                        <h2 className='text-md sm:text-lg font-bold'>(Fort Wayne, IN)</h2>
+                        <h1 className='text-xl sm:text-2xl text-[#F9D342]'>Computer Science Tutor</h1>
+                        <h2 className='text-md sm:text-lg'>January 2022 - Present</h2>
+                    </div>
+
+                </div>
+
+                <div className='shadow-xl shadow-[#040c16] group container rounded-md'>
+                    
+                    <div 
+                    className='flex justify-center items-center mx-auto image-div'
+                    style={{backgroundImage: `url(${BNSF})`}}
+                    alt="Kohls"
+                    >  
+                    </div>
+                    <div className='text-center py-8'>
+                        <h1 className='text-3xl sm:text-4xl font-bold text-[#F9D342]'>BNSF Railway</h1>
+                        <h2 className='text-md sm:text-lg font-bold'>(Fort Worth, TX)</h2>
+                        <h1 className='text-xl sm:text-2xl text-[#F9D342]'>Software Engineering / Enterprise Architecture Intern</h1>
+                        <h2 className='text-md sm:text-lg'>June 2022 - August 2022</h2>
                     </div>
                 </div>
 
-                <div 
-                style={{backgroundImage: `url(${IndianaTech})`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                >
+                <div className='shadow-xl shadow-[#040c16] group container rounded-md'>
                     
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            Calculator
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
+                    <div 
+                    className='flex justify-center items-center mx-auto image-div'
+                    style={{backgroundImage: `url(${CompassMortage})`}}
+                    alt="Kohls"
+                    >  
+                    </div>
+                    <div className='text-center py-8'>
+                        <h1 className='text-3xl sm:text-4xl font-bold text-[#F9D342]'>Compass Mortgage</h1>
+                        <h2 className='text-md sm:text-lg font-bold'>(Warrenville, IL)</h2>
+                        <h1 className='text-xl sm:text-2xl text-[#F9D342]'>Information Technology Intern</h1>
+                        <h2 className='text-md sm:text-lg'>May 2021 - August 2021</h2>
                     </div>
                 </div>
 
-                <div 
-                style={{backgroundImage: `url(${CompassMortage})`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                >
-                    
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            Tic Tac Toe App
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
 
         </div>

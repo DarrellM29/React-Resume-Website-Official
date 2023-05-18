@@ -28,3 +28,10 @@
         hsla(242, 74%, 61%, 0.8)
     )!important;
 }
+
+.image-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}

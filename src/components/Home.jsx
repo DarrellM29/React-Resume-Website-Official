@@ -1,7 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
+import {Link} from 'react-scroll'
 
 const Home = () => {
+
+    const [nav, setNav] = useState(false)
+    const handleClick = () => setNav(!nav)
+
   return (
     <div name='home' className='w-full h-screen bg-[#0A192F]'>
         {/*Container*/}
@@ -14,10 +19,10 @@ const Home = () => {
                 Full-Stack Development.
             </p>
             <div>
-                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#F9D342] hover:border-[#F9D342]'>View Experience 
-                    <span className='group-hover:rotate-90 duration-300'>
-                        <HiArrowNarrowRight className='ml-3'/>
-                    </span>
+                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#F9D342] hover:border-[#F9D342]'>
+                    <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+                    View Experience <HiArrowNarrowRight className='flex justify-center items-center group-hover:rotate-90 duration-300'/>
+                    </Link>
                 </button>
             </div>
         </div>
