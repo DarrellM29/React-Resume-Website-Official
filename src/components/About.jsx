@@ -18,7 +18,7 @@ const About = () => {
                     </div>
                     <div>
                         <p>I am a senior studying Computer Science at Indiana Institue of Technology.
-                            I also am pursuing minors in Web Development and Humanities. I interened 
+                            I also am pursuing minors in Web Development and Humanities. I interned 
                             as a software engineer at multiple companies and am currently looking for 
                             full-time Software Engineering roles in the Chicago area and remotely. 
                         </p>
