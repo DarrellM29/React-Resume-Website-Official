@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/React-Resume-Website-Official/static/css/main.f460a5c8.css",
+    "main.js": "/React-Resume-Website-Official/static/js/main.2c21bec8.js",
+    "static/media/GlobalGuide.png": "/React-Resume-Website-Official/static/media/GlobalGuide.77a34f4c94c4d3046c64.png",
+    "static/media/Calculator.png": "/React-Resume-Website-Official/static/media/Calculator.a26f5426dfcd060d714a.png",
+    "static/media/IndianaTech.png": "/React-Resume-Website-Official/static/media/IndianaTech.f0bb7512456e5c2ad787.png",
+    "static/media/TodoApp.png": "/React-Resume-Website-Official/static/media/TodoApp.283c4fe855ebeac1c8c2.png",
+    "static/media/kotlin.png": "/React-Resume-Website-Official/static/media/kotlin.c04f37dd07bcc8fad460.png",
+    "static/media/c++.png": "/React-Resume-Website-Official/static/media/c++.f6afac229ae20fa3db1a.png",
+    "static/media/TicTacToe.png": "/React-Resume-Website-Official/static/media/TicTacToe.0907c9e6323c1c748ceb.png",
+    "static/media/Kohls.png": "/React-Resume-Website-Official/static/media/Kohls.aa61231d051cfb4736f0.png",
+    "static/media/mysql.png": "/React-Resume-Website-Official/static/media/mysql.fbb13b9399ca4dfb9218.png",
+    "static/media/python.png": "/React-Resume-Website-Official/static/media/python.0f9c5eee9c12195c1bcb.png",
+    "static/media/java.png": "/React-Resume-Website-Official/static/media/java.a45fa3eea10857552262.png",
+    "static/media/logo1.png": "/React-Resume-Website-Official/static/media/logo1.167bfa40ebf01e7e1b92.png",
+    "static/media/bootstrap.png": "/React-Resume-Website-Official/static/media/bootstrap.9297b0e426624a3f3f36.png",
+    "static/media/TipApp.png": "/React-Resume-Website-Official/static/media/TipApp.995b7f95d43983527b5e.png",
+    "static/media/c.png": "/React-Resume-Website-Official/static/media/c.84eaa5238cf8d5013cc4.png",
+    "static/media/BillSplitter.png": "/React-Resume-Website-Official/static/media/BillSplitter.a0b74c97ea634577d4ac.png",
+    "static/media/BNSF.png": "/React-Resume-Website-Official/static/media/BNSF.84cfb5d0d70d979942e0.png",
+    "static/media/CompassMortgage.png": "/React-Resume-Website-Official/static/media/CompassMortgage.35661c8d640ec6683c1b.png",
+    "static/media/react.png": "/React-Resume-Website-Official/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/github.png": "/React-Resume-Website-Official/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/React-Resume-Website-Official/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/React-Resume-Website-Official/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/React-Resume-Website-Official/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/React-Resume-Website-Official/index.html",
+    "main.f460a5c8.css.map": "/React-Resume-Website-Official/static/css/main.f460a5c8.css.map",
+    "main.2c21bec8.js.map": "/React-Resume-Website-Official/static/js/main.2c21bec8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f460a5c8.css",
+    "static/js/main.2c21bec8.js"
+  ]
+}
