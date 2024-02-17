@@ -20,8 +20,9 @@ const About = () => {
                         <p>I am a current Associate Software Engineer at Kohl's Technology. 
                             I recently graduated from Indiana Institute of Technology with a 
                             Bachelor's of Science in Computer Science and two minors in Web Development
-                            and Humanities. I have also interned as a software engineer with 
-                            multiple companies across the US.
+                            and Humanities. I have also interned with multiple companies across the US.
+                            Please feel free to take a look around and contact me if you have any
+                            questions or oppurtunities.
                         </p>
                     </div>
                 </div>
